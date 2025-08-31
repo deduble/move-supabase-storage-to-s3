@@ -347,7 +347,7 @@ const CredentialsStep: React.FC<CredentialsStepProps> = ({
   {
     "AllowedOrigins": [
       "http://localhost:5173",
-      "https://deduble.github.io"
+      "https://deduble.github.io/move-supabase-storage-to-s3"
     ],
     "AllowedMethods": ["GET", "PUT", "POST", "HEAD", "DELETE", "OPTIONS"],
     "AllowedHeaders": [

@@ -76,7 +76,7 @@ If you want R2 connection testing to work in browsers, add this CORS policy to y
   {
     "AllowedOrigins": [
       "http://localhost:5173",
-      "https://deduble.github.io"
+      "https://deduble.github.io/move-supabase-storage-to-s3"
     ],
     "AllowedMethods": ["GET", "PUT", "POST", "HEAD", "DELETE", "OPTIONS"],
     "AllowedHeaders": [
