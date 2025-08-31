@@ -369,7 +369,7 @@ const CredentialsStep: React.FC<CredentialsStepProps> = ({
                 <p style={{ fontSize: '0.9em', marginTop: '0.5em' }}>
                   <strong>CRITICAL:</strong> Add this to your R2 bucket: Settings → CORS Policy → JSON<br/>
                   <em>CORS must be configured on the 'test' bucket specifically, not account-level.</em><br/>
-                  <strong>Bucket URL being tested:</strong> https://3113757f0fb2bf6bd8b6240cd7fd4a47.r2.cloudflarestorage.com/test<br/>
+                  <strong>Note:</strong> Connection testing requires CORS configuration on your specific R2 bucket.<br/>
                   <em>Note: You can proceed without R2 connection for Supabase-only operations.</em>
                 </p>
               </details>

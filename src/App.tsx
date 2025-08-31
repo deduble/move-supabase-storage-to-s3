@@ -14,14 +14,14 @@ const initialState: AppState = {
   step: 'tos',
   tosAccepted: false,
   supabaseCredentials: {
-    url: 'https://djjkahrtaadgqutzdnxh.supabase.co',
-    serviceKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRqamthaHJ0YWFkZ3F1dHpkbnhoIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NjYwMDAxNywiZXhwIjoyMDcyMTc2MDE3fQ.P4xbu2RAU-U8c331bkvd3ynrJnm-6vpgnTAq64P0zto'
+    url: '',
+    serviceKey: ''
   },
   r2Credentials: {
-    accountId: '3113757f0fb2bf6bd8b6240cd7fd4a47',
-    accessKeyId: '566bf6b5f4627cc258d7b52ae8360f44',
-    secretAccessKey: '10243fabf51e0d72c5e8c8770ec22710f7f590c7ae8dfb1897f2587e97474727',
-    endpoint: 'https://3113757f0fb2bf6bd8b6240cd7fd4a47.r2.cloudflarestorage.com'
+    accountId: '',
+    accessKeyId: '',
+    secretAccessKey: '',
+    endpoint: ''
   },
   transferOptions: {
     direction: 'supabase-to-r2',

@@ -4,7 +4,8 @@
       "Bash(npm run dev:*)",
       "Bash(npm run build:*)",
       "Read(C:\\Users\\yunus\\.claude/**)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
